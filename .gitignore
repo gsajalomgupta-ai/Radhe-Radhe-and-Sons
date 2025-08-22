@@ -47,9 +47,9 @@ pids
 coverage/
 *.lcov
 
-# Database
-*.sqlite
-*.db
+# Database (allow sample db for deployment)
+# *.sqlite
+# *.db
 
 # Temporary folders
 tmp/
@@ -67,6 +67,45 @@ temp/
 
 # Next.js (if used)
 .next/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
 
 # Misc
 *.bak
